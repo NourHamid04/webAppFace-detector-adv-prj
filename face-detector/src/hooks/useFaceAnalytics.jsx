@@ -77,6 +77,5 @@ export function useFaceAnalytics(faces, videoRef) {
     }
   }, [faces, videoRef]);
 
-  // Return computed analytics
   return analytics;
 }
