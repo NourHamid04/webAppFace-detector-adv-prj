@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { loadFaceDetector, detectFaces } from "../services/faceDetector";
 
-// Custom hook responsible for real-time face detection
+// Custom hook responsible for real-time face detection by running detection in a loop for each frame 
 export function useFaceDetection(videoRef) {
   // State holding detected faces
   const [faces, setFaces] = useState([]);

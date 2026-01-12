@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-// Custom hook to compute analytics from face detection results
+// Custom hook to compute analytics from face detection results such as number of detected faces ,their average size  and the average number of faces per second
 export function useFaceAnalytics(faces, videoRef) {
   // Reference storing recent face counts (no re-render on update)
   const historyRef = useRef([]);

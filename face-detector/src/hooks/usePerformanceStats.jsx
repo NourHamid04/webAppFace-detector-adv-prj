@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
+//custom hook to compute the FPS and the average detection time per ms
 export function usePerformanceStats() {
   // useRef values are mutable and do NOT trigger re-renders
   // They are ideal for high-frequency updates (per frame)
