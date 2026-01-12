@@ -1,3 +1,16 @@
+/*
+===========================================================
+ Face API - Model Loader & Face Detection Utility
+===========================================================
+
+This module is responsible for:
+1) Loading the required Face-API.js models only once (cached).
+2) Detecting faces from an HTMLVideoElement using TinyFaceDetector.
+
+
+===========================================================
+*/
+
 import * as faceapi from "face-api.js";
 
 let modelsLoaded = false;
